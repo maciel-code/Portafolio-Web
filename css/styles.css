@@ -1,0 +1,236 @@
+@font-face{
+    font-family: "nevis";
+    scr:url("fonts/nevis.eot");
+    src:url("fonts/nevis.eot?#iefix")format("embedded-opentype"),
+    url("fonts/nevis.woff")format("woff"),
+    url("fonts/nevis.ttf")format("ttf"),
+    url("fonts/nevis.svg")format("svg");
+font-weight: normal;
+font-style: normal;
+}
+
+header > h1 > span{
+    animation: intro2 2s infinite steps(14);
+    position: absolute;
+    right: 0;
+    width: 0;
+    background-color: rgb(0, 0, 0);
+    border-left: 1px solid white;
+    
+}
+.intro{
+    color: blanchedalmond;
+    font-size: 50px;
+    animation:intro 2s infinite;
+    text-shadow:2px 2px 5px #999;
+    ;
+}
+.intro2{
+    color: #CEEB10;
+    font-size: 40px;
+    text-shadow:2px 2px 5px #999;
+
+}
+.info{
+    padding-left: 60%;
+    padding-bottom: 200px;
+    
+}
+.in {
+    opacity:0.2;
+}
+.in:hover{
+    opacity: inherit;
+}
+
+header{
+background-color: black;
+    width: 100%;
+    height: 620px;
+    display: block;
+
+}
+body{
+    background-color:  rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+
+}
+#menu{
+    display: block;
+padding-left: 1000px;
+}
+#menu >a{
+        padding-right: 20px;
+}
+a{
+    color: blanchedalmond;
+    font-family: cursive;
+    text-decoration: none;
+}
+a:hover{
+    color: #CEEB10;
+}
+#foto{
+        border-radius: 500px;
+        height: 200px;
+        box-shadow: 2px 2px 5px #999;
+
+}
+.fotoXY{
+    
+    padding-right: 50%;
+}
+.titulo{
+    display: block;
+    color: #CEEB10;
+    font-family: "nevis";
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    
+}
+p{
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.sobreMi{
+    width: 100%;
+    height: 620px;
+    display: block;
+    background-color: black;
+text-shadow:2px 2px 5px black;
+box-shadow:2px 2px 5px #999;
+border-radius: 20px;
+
+
+}
+.titulo2{
+    width: 100%;
+    height: 620px;
+    background-color: black;
+}
+.front > h1 {
+    background-color: #262D31;
+}
+.skills
+{
+color: blanchedalmond;
+text-decoration: underline;
+}
+
+
+
+.contacto{
+    background-color: white;
+    width: 100%;
+    height: 620px;
+    border: 2px solid blanchedalmond;
+}
+.consulta {
+    color: black;
+}
+.consulta:focus{
+    border-radius: 1px;
+}
+button:active{
+color: red;
+background-color:black;
+
+
+}
+
+
+footer{
+background-color :#74ACDF	; 
+border: 2px solid blanchedalmond;
+width: 100%;
+}
+footer > h4 {
+    background-color: white;
+
+}
+.con{
+    width: 80%;
+    height: 150px;
+}
+.con:hover {
+    border: #74ACDF solid 1px;
+
+}
+
+.front{
+    border: blanchedalmond solid 1px;
+    color: #CEEB10;
+    float: left;
+    margin-left: 270px;
+
+}
+.front >  div {
+    background-color: rgb(77, 73, 67);
+    width: 95%;
+    height: 100%;
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px #999;
+
+}
+
+
+
+
+
+.back{
+    border: blanchedalmond solid 1px;
+    color: #CEEB10;
+    float: right;
+    margin-right: 270px;
+
+}
+.back > div {
+    background-color: rgb(77, 73, 67);
+    width: 95%;
+    height: 100%;
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px #999;
+
+}
+
+.front > div > a {
+opacity:0.1;
+}
+.front > div > a:hover {
+opacity: inherit;
+}
+
+.back > div > a {
+    opacity:0.1;
+    
+    }
+.back > div > a:hover {
+    opacity: inherit;
+    }
+    #enviado{
+        color: red;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes intro2 {
+    from {
+        width: 60%;
+    }
+    to
+    {
+        width: 40%;
+    }
+
+};
