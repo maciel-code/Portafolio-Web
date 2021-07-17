@@ -8,6 +8,10 @@
 font-weight: normal;
 font-style: normal;
 }
+.marca{
+    font-family: italic;
+
+}
 
 header > h1 > span{
     animation: intro2 2s infinite steps(14);
@@ -75,6 +79,7 @@ a:hover{
         border-radius: 500px;
         height: 200px;
         box-shadow: 2px 2px 5px #999;
+        opacity: 0.50;
 
 }
 .fotoXY{
@@ -108,55 +113,24 @@ border-radius: 20px;
 .titulo2{
     width: 100%;
     height: 620px;
-    background-color: black;
+    background-image: url('../imagenes/fondo3.jpg');
+    background-size: 50%;
+    background-repeat: repeat-x;    
+   
 }
-.front > h1 {
-    background-color: #262D31;
-}
+    .foco{
+        border-radius: 50px;
+        opacity: 0.80;
+        box-shadow:2px 2px 5px #999;
+    }
+ 
 .skills
 {
 color: blanchedalmond;
 text-decoration: underline;
 }
-
-
-
-.contacto{
-    background-color: white;
-    width: 100%;
-    height: 620px;
-    border: 2px solid blanchedalmond;
-}
-.consulta {
-    color: black;
-}
-.consulta:focus{
-    border-radius: 1px;
-}
-button:active{
-color: red;
-background-color:black;
-
-
-}
-
-
-footer{
-background-color :#74ACDF	; 
-border: 2px solid blanchedalmond;
-width: 100%;
-}
-footer > h4 {
-    background-color: white;
-
-}
-.con{
-    width: 80%;
-    height: 150px;
-}
-.con:hover {
-    border: #74ACDF solid 1px;
-
+.front > h1 {
+    opacity: 0.50;
 }
 
 .front{
@@ -167,39 +141,33 @@ footer > h4 {
 
 }
 .front >  div {
-    background-color: rgb(77, 73, 67);
     width: 95%;
     height: 100%;
     border-radius: 100px;
     box-shadow: 2px 2px 5px #999;
 
 }
-
-
-
-
-
+.front > div > a {
+    opacity:0.1;
+    }
+    .front > div > a:hover {
+    opacity: inherit;
+    }
+    
 .back{
     border: blanchedalmond solid 1px;
     color: #CEEB10;
     float: right;
     margin-right: 270px;
+    opacity: 0.50;
 
 }
 .back > div {
-    background-color: rgb(77, 73, 67);
     width: 95%;
     height: 100%;
     border-radius: 100px;
     box-shadow: 2px 2px 5px #999;
 
-}
-
-.front > div > a {
-opacity:0.1;
-}
-.front > div > a:hover {
-opacity: inherit;
 }
 
 .back > div > a {
@@ -209,11 +177,63 @@ opacity: inherit;
 .back > div > a:hover {
     opacity: inherit;
     }
+
+
+
+
+
+
+
+
+
+
+    .contacto{
+        background-color: white;
+        width: 100%;
+        height: 620px;
+        border: 2px solid blanchedalmond;
+    }    
     #enviado{
         color: red;
     }
 
+    .consulta {
+        color: black;
+    }
+    .consulta:focus{
+        border-radius: 1px;
+    }
+    button:active{
+    color: red;
+    background-color:black;
+    
+    
+    }
+    
 
+
+
+
+
+
+    
+    footer{
+    background-color :#74ACDF	; 
+    border: 2px solid blanchedalmond;
+    width: 100%;
+    }
+    footer > h4 {
+        background-color: white;
+    
+    }
+    .con{
+        width: 80%;
+        height: 150px;
+    }
+    .con:hover {
+        border: #74ACDF solid 1px;
+    
+    }
 
 
 
